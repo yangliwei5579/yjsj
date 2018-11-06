@@ -11,7 +11,10 @@ import com.fenbi.yjsj.service.TestService;
 @Controller
 @RequestMapping("/test")
 public class TestController {
-
+	
+	
+	
+	//啥东东安顿好
 	@Autowired
 	private TestService testService;
 	
