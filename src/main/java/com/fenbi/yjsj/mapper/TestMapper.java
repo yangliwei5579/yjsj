@@ -7,7 +7,7 @@ public interface TestMapper {
 	/**
 	 * 向测试表中插入一条数据
 	 */
-	@Insert("insert into test (name, password) values ('zhangsan', '123456')")
+	@Insert("insert into test (name, password) values ('李四', '666')")
 	void insert();
 
 }
